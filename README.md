@@ -55,7 +55,7 @@ Melakukan prediksi gambar bahan makanan menggunakan model TFLite.
 ### Contoh cURL
 
 ```bash
-curl -X POST https://eatzi.snafcat.com/predict \
+curl -X POST http://eatzi.snafcat.com/predict \
   -H "Authorization: Basic YWRtaW46MTIzNA==" \
   -H "Accept: application/json" \
   -F "file=@/path/to/image.jpg"
@@ -95,7 +95,7 @@ Merekam feedback pengguna berdasarkan hasil prediksi.
 ### Contoh cURL
 
 ```bash
-curl -X POST https://eatzi.snafcat.com/feedback \
+curl -X POST http://eatzi.snafcat.com/feedback \
   -H "Authorization: Basic YWRtaW46MTIzNA==" \
   -H "Accept: application/json" \
   -d "data=1"
